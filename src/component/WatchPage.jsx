@@ -16,7 +16,7 @@ const WatchPage = () => {
   },[]);
 
   const getinfo = async ()=>{
-    const response = await fetch(`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}&key=AIzaSyBMXCBmAqpKvkjAJfwvhF1k8tJLfX5ftZI`);
+    const response = await fetch(process.env.REACT_APP_YOUTUBE_VIDEO_INFO_API_ + videoId + "&key=" + process.env.REACT_APP_YOUTUBE_API_KEY);
     const data = await response.json();
       setVideoInfo(data.items[0]);
   }

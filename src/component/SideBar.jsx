@@ -20,19 +20,19 @@ const SideBar = () => {
         {/* <li className='font-bold'></li> */}
         <div className="">
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={home} />
               <span className="ml-5 text-lg">Home</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={shorts} />
               <span className="ml-5 text-lg">Shorts</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={subscriptions} />
               <span className="ml-5 text-lg">subscriptions</span>
             </div>
@@ -42,48 +42,48 @@ const SideBar = () => {
         </div>
         <div className="">
             <a href="#">
-                <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+                <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
                 <span className="text-lg mr-4">Home</span><img src={you} className="pt-1" />
                 </div>
                 </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={history} />
               <span className="ml-5 text-lg">History</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={playlist} />
               <span className="ml-5 text-lg">Playlist</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={yourVideo} />
               <span className="ml-5 text-lg">Your videos</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={watchLater} />
               <span className="ml-5 text-lg">Watch later</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={like} />
               <span className="ml-5 text-lg">Liked videos</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={download} />
               <span className="ml-5 text-lg">Download</span>
             </div>
           </a>
           <a href="#">
-            <div className="flex hover:bg-gray-100 w-60 p-2 rounded-xl my-1">
+            <div className="flex hover:bg-gray-100 w-52 p-2 rounded-xl my-1">
               <img src={yourClip} />
               <span className="ml-5 text-lg">Your clips</span>
             </div>
